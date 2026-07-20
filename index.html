@@ -4,159 +4,280 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>browngirlpov</title>
+<title>BROWNGIRLPOV</title>
 
 <style>
+
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background: #0b0b0b;
+    font-family: Georgia, serif;
+    background: #080808;
     color: white;
 }
 
-header { brownngirlpov from my own experience)
+header {
     height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 20px;
-    background: linear-gradient(135deg, #000000, #3b0028);
+    background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.85)),
+    url("https://images.unsplash.com/photo-1524504388940-b1c1722653e1");
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
 }
 
-h1 {
-    font-size: 55px;
-    color: #d4af37;
+.title {
+    font-size:60px;
+    color:#d4af37;
+    text-decoration: underline;
+    letter-spacing:6px;
 }
 
-h2 {
-    color: #ff69b4;
-}
-
-p {
-    line-height: 1.7;
+.subtitle {
+    font-size:22px;
+    color:white;
 }
 
 .button {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 12px 30px;
-    background: #d4af37;
-    color: black;
-    text-decoration: none;
-    border-radius: 30px;
+    background:#ff69b4;
+    color:black;
+    padding:15px 35px;
+    border-radius:30px;
+    text-decoration:none;
+    display:inline-block;
+    margin-top:25px;
+    font-weight:bold;
 }
+
 
 section {
-    padding: 60px 10%;
-    text-align: center;
+    padding:70px 10%;
+    text-align:center;
 }
+
+
+h2 {
+    color:#ff69b4;
+    font-size:38px;
+}
+
+
+p {
+    line-height:1.8;
+    font-size:18px;
+}
+
 
 .card {
-    background: #161616;
-    border: 1px solid #d4af37;
-    padding: 20px;
-    margin: 20px auto;
-    border-radius: 15px;
-    max-width: 500px;
+    background:#151515;
+    border:2px solid #d4af37;
+    border-radius:20px;
+    padding:25px;
+    margin:25px auto;
+    max-width:600px;
 }
+
 
 .gallery {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
 }
 
-.photo {
-    width: 220px;
-    height: 150px;
-    background: #ff69b4;
-    color: black;
-    margin: 10px;
-    border-radius: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+.gallery img {
+    width:280px;
+    height:200px;
+    object-fit:cover;
+    margin:15px;
+    border-radius:20px;
+    border:3px solid #d4af37;
 }
+
+
+.contact-box {
+    background:#151515;
+    border:2px solid #ff69b4;
+    padding:30px;
+    border-radius:20px;
+}
+
 
 footer {
-    background: black;
-    padding: 20px;
-    text-align: center;
-    color: #d4af37;
+    background:#000;
+    padding:25px;
+    text-align:center;
+    color:#d4af37;
 }
+
+
+@media(max-width:600px){
+
+.title {
+    font-size:38px;
+}
+
+.gallery img {
+    width:90%;
+}
+
+}
+
 </style>
 
 </head>
 
+
 <body>
 
+
 <header>
+
 <div>
-<h1>browngirlpov</h1>
-<p>
-Celebrating culture, identity, and the stories that connect us.
+
+<h1 class="title">BROWNGIRLPOV</h1>
+
+<p class="subtitle">
+Culture • Identity • Stories • Community
 </p>
-<a class="button" href="#about">Explore</a>
+
+<a class="button" href="#about">
+Explore Stories
+</a>
+
 </div>
+
 </header>
 
 
+
+
 <section id="about">
+
 <h2>About</h2>
+
 <p>
-browngirlpov is a space for sharing cultural experiences,
-personal stories, traditions, and the voices of brown communities.
+BROWNGIRLPOV is a platform celebrating brown voices,
+cultures, traditions and personal experiences.
+
+A space where stories are shared, identities are embraced,
+and communities are connected.
 </p>
+
 </section>
 
 
+
+
 <section>
-<h2>Services</h2>
+
+<h2>Our Stories</h2>
+
 
 <div class="card">
-<h3>Stories</h3>
-<p>Sharing real experiences and journeys.</p>
+
+<h3>Culture & Heritage</h3>
+
+<p>
+Exploring traditions, backgrounds and the experiences
+that shape who we are.
+</p>
+
 </div>
 
-<div class="card">
-<h3>Culture</h3>
-<p>Celebrating heritage, traditions, and identity.</p>
-</div>
+
 
 <div class="card">
+
+<h3>Personal Stories</h3>
+
+<p>
+Sharing honest journeys, lessons and perspectives
+from different communities.
+</p>
+
+</div>
+
+
+
+<div class="card">
+
 <h3>Community</h3>
-<p>Connecting people through meaningful conversations.</p>
+
+<p>
+Creating a place where voices are heard and stories matter.
+</p>
+
 </div>
+
 
 </section>
 
 
+
+
+
 <section>
+
 <h2>Gallery</h2>
 
+
 <div class="gallery">
-<div class="photo">Culture</div>
-<div class="photo">Stories</div>
-<div class="photo">Community</div>
+
+
+<img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce" alt="Culture">
+
+<img src="https://images.unsplash.com/photo-1524250502761-1ac6f2e30d43" alt="Community">
+
+<img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e" alt="Stories">
+
+
 </div>
 
+
 </section>
+
+
+
 
 
 <section>
+
 <h2>Contact</h2>
+
+
+<div class="contact-box">
+
 <p>
-Want to share your story or collaborate?
-<br><br>
-Email: hello@browngirlpov.com
+Want to share your story, collaborate, or connect?
 </p>
+
+
+<p>
+📧 Email:
+<br>
+kiranbashir2304@gmail.com
+</p>
+
+
+</div>
+
+
 </section>
+
+
 
 
 <footer>
-© 2026 browngirlpov
+
+© 2026 BROWNGIRLPOV
+<br>
+Celebrating culture and stories
+
 </footer>
+
 
 </body>
 </html>
